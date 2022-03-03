@@ -1,6 +1,6 @@
 import csv
 
-with open("router_list.csv") as data:
+with open("d:\Cyber Security\Programming\Python program\Working with data\\router_list.csv") as data:
     csv_list = csv.reader(data)
     for row in csv_list:
         device = row[0]
